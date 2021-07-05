@@ -1,0 +1,51 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+	background-color: darkslategray;
+	padding: 0.5em 0;
+	margin-bottom: 2em;
+	text-align: center;
+	color: #fff;
+}
+
+header h1 {
+  font-weight: normal;
+}
+
+section {
+	margin: auto;
+	width: 600px;
+	font-size: 100%;
+  color: #666;
+}
+
+h2 {
+  font-weight: 700;
+  padding-left: 3em;
+}
+
+
+/**** Accordion colors ****/
+.ui-state-default {
+  color: #1c94c4;
+}
+
+.ui-state-hover {
+  color: #c77405;
+  border-color: #fbcb09;
+  background-color: rgba(251,203,9,.25);
+}
+
+.ui-state-active {
+  color: #c77405;
+  border-color: #fbcb09;
+  background-color: #fff;
+}
+
+.ui-state-default .ui-icon {
+  background-image: url(images/ui-icons_ef8c08_256x240.png);
+  margin-right: 0.5em;
+}
